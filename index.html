@@ -40,9 +40,9 @@
       const todosubmit = document.querySelector('#todo-submit');
 
       
-      let button;
-      let input;
-      let output;
+      //let button;
+      //let input;
+      //let output;
 
       // TODO: Buatlah sebuah fungsi dengan nama fnClickHandler
       // Fungsi yang digunakan untuk menambahkan tulisan
@@ -61,7 +61,7 @@
       });
 
       todoinput.addEventListener('keypress', (event) => {
-        if(event.which === "Enter" ){
+        if(event.which === 13 ){
           fnClickHandler();
         }
       });
