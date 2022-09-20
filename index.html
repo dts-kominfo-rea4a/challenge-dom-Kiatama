@@ -10,11 +10,12 @@
     <div id="app">
       <!-- TODO: Buatlah sebuah header dengan id todo-title -->
       <!-- TODO: Buatlah sebuah subtitle dengan id todo-subtitle -->
-      <div>
+      <!--<div>
         <h1 class="todo-title"> To Do List</h1>
-        <h2 class="todo-subtitle"> Tambahkan List nya : </h2>
-      </div>
-
+        <h2 class="todo-subtitle"> Tambahkan List nya : </h2> 
+      </div>-->
+      <title class="todo-title"> To Do List></title>
+      <subtitle class="todo-subtitle"> Tambahkan List nya : ></subtitle>
       <div>
         <form action="#">
           <input type="text" id="todo-input">
@@ -61,7 +62,7 @@
       });
 
       todoinput.addEventListener('keyup', () => {
-        if(event.which === 15 ){
+        if(event.which === "Enter" ){
           fnClickHandler();
         }
       });
