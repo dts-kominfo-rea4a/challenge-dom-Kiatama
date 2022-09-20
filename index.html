@@ -60,7 +60,7 @@
         fnClickHandler();
       });
 
-      todoinput.addEventListener('keyup', () => {
+      todoinput.addEventListener('keypress', (event) => {
         if(event.which === "Enter" ){
           fnClickHandler();
         }
